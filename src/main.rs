@@ -1,3 +1,5 @@
+mod pizza;
+
 fn main() {
-    println!("Hello, world!");
+    pizza::available_toppings();
 }
