@@ -8,17 +8,10 @@ enum Toppings {
 impl Toppings {
     fn to_string(self) -> String {
         match self {
-<<<<<<< HEAD
             Toppings::Pepperoni => String::from("Tire"),
             Toppings::Sardines => String::from("Tire"),
             Toppings::Onions => String::from("Tire"),
             Toppings::Bacon => String::from("Tire"),
-=======
-            Toppings::Pepperoni => String::from("Pepperoni"),
-            Toppings::Sardines => String::from("Sardines"),
-            Toppings::Onions => String::from("Onions"),
-            Toppings::Bacon => String::from("Bacon"),
->>>>>>> b4b4a5e4ee6fddf83ca0356ee7912d9ccdec3021
         }
     }
 }
